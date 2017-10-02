@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		// var tinhTong = (...thamso) => {
+		//    	let tong = 0;
+		//    	for(var i=0;i<thamso.length;i++){
+		//    		tong = tong + thamso[i];
+		//    	}
+		//    	return tong;
+		// }
+		// alert(tinhTong(1,2,3,4,5));
+		// alert(tinhTong(1,2,3,4,5,6));
+
+		var tinhTong = (x,...thamso) => {
+			let tong = 0;
+		    	for(var i=0;i<thamso.length;i++){
+		    		tong = tong + thamso[i];
+		    	}
+		    	return tong;
+		}
+		alert(tinhTong(10,2,3,4,5));
+	</script>
+</body>
+</html>

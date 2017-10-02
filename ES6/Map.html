@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		//  let map = new Map([
+		//      ["ten", "Hoang Van cong"],
+		//      ["email", "conghoang@gmail.com"],
+		//      ["diachi", "Lam dong"]
+		// ]);
+		// console.log(map);
+
+		//Thêm phần tử
+		// let map = new Map();
+		// map.set('ten','Công Hoàng');
+		// map.set('diachi','Lâm đồng');
+		// map.delete('ten');
+		// //console.log(map);
+		// console.log(map.has('ten'));
+
+		// Gán và lấy giá trị theo key
+		// let key1 = '123';
+		// let map = new Map();
+		// map.set(key1,'Công Hoàng');
+		// console.log(map.get(key1));
+
+		// Lấy danh sách key
+		//   let map = new Map([
+		//       	["ten", "Hoang Van cong"],
+	 //      		["email", "conghoang@gmail.com"],
+		//       	["diachi", "Lam dong"]
+		//  ]);
+		// for (var key of map.keys())
+		// {
+		// 	console.log(key);
+		// }
+
+		// Lấy danh sách value
+		// let map = new Map([
+		//       	["ten", "Hoang Van cong"],
+	 //      		["email", "conghoang@gmail.com"],
+		//       	["diachi", "Lam dong"]
+		// ]);
+		// for (var value of map.values())
+		// {
+		// 	console.log(value);
+		// }
+
+		// Lấy danh sách key + value
+		// let map = new Map([
+		//       	["ten", "Hoang Van cong"],
+	 //      		["email", "conghoang@gmail.com"],
+		//       	["diachi", "Lam dong"]
+		// ]);
+		// for (var entry of map.entries())
+		// {
+		//     console.log(entry[0] + ' - ' + entry[1]);
+		// }
+
+		// Lặp Map
+		let map = new Map([
+		      	["ten", "Hoang Van cong"],
+	      		["email", "conghoang@gmail.com"],
+		      	["diachi", "Lam dong"]
+		]);
+		map.forEach((value, key) => {
+		    console.log(key + ' - ' + value);
+		});
+
+	</script>
+</body>
+</html>

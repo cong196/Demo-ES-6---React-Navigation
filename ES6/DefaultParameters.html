@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function DemoDefaultParameters(name)
+		{
+		    // Tạo giá trị mặc định là Công Hoàng
+		    name = name || 'Công Hoàng';
+		    return name;
+		}
+		// Sử dụng
+		//alert("KHÔNG truyền tham số: " + DemoDefaultParameters());
+		//alert("CÓ truyền tham số: " + DemoDefaultParameters('Hoàng Văn Công'));
+
+
+		function DemoDefaultParametersES6(name = 'Công Hoàng'){
+			return name
+		}
+		alert("KHÔNG truyền tham số: " + DemoDefaultParametersES6());
+		alert("CÓ truyền tham số: " + DemoDefaultParametersES6('Hoàng Văn Công'));
+
+	</script>
+</body>
+</html>
